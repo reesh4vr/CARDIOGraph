@@ -1,6 +1,6 @@
 # Core dependencies
 neo4j==5.15.0
-networkx==3.2.1
+networkx==2.8.8
 pandas==2.1.4
 numpy==1.26.2
 
@@ -23,6 +23,7 @@ py2neo==2021.2.4
 # Utilities
 requests==2.31.0
 matplotlib==3.8.2
+seaborn==0.13.0
 tqdm==4.66.1
 python-dotenv==1.0.0
 
@@ -30,4 +31,10 @@ python-dotenv==1.0.0
 jupyter==1.0.0
 ipykernel==6.27.1
 notebook==7.0.6
+
+# Visualization & Community Detection
+python-louvain==0.16
+
+# Dataset acquisition
+kagglehub==0.2.5
 
